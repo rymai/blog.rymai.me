@@ -1,3 +1,8 @@
+---
+layout: default
+title: License for Rémy Coutable's website
+---
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Rémy Coutable

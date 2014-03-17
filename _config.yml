@@ -1,0 +1,13 @@
+exclude: [CNAME, Gemfile, Gemfile.lock, Guardfile, README.md, sass]
+name: The décalécatan blog!
+permalink: /:year/:month/:day/:title/
+google_analytics_id: UA-34888761-1
+root_url: http://rymai.me
+github_username: rymai
+twitter_username: rymai
+markdown: redcarpet
+redcarpet:
+  extensions: ['no_intra_emphasis', 'autolink', 'strikethrough', 'space_after_headers']
+pygments: true
+paginate: 1
+paginate_path: ':num'
