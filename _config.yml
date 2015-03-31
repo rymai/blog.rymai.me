@@ -2,7 +2,7 @@ exclude: [CNAME, Gemfile, Gemfile.lock, Guardfile, README.md, sass]
 name: The décalécatan blog!
 permalink: /:year/:month/:day/:title/
 google_analytics_id: UA-34888761-1
-root_url: http://rymai.me
+root_url: http://www.rymai.me
 github_username: rymai
 twitter_username: rymai
 markdown: redcarpet
