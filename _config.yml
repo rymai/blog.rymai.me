@@ -8,6 +8,5 @@ twitter_username: rymai
 markdown: redcarpet
 redcarpet:
   extensions: ['no_intra_emphasis', 'autolink', 'strikethrough', 'space_after_headers']
-pygments: true
-paginate: 1
+paginate: 5
 paginate_path: ':num'
