@@ -2,7 +2,7 @@
 layout: post
 title:  "Cleaning the Guard organization"
 date:   2014-03-15 13:13:22
-categories: guard
+categories: guard, english
 author: rymai
 ---
 

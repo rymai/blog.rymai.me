@@ -2,8 +2,20 @@
   <aside>
     <h4>Categories</h4>
     <ul>
-      <li class="{% if page.title == 'Archives' %}current{% endif %}">
+      <li class="{% if page.url contains '/archives/' %}current{% endif %}">
         <a href="/archives">#all</a>
+      </li>
+      <li class="{% if page.tags contains '/english/' %}current{% endif %}">
+        <a href="/english">#english</a>
+      </li>
+      <li class="{% if page.tags contains '/french/' %}current{% endif %}">
+        <a href="/french">#french</a>
+      </li>
+      <li class="{% if page.tags contains '/philosophy/' %}current{% endif %}">
+        <a href="/philosophy">#philosophy</a>
+      </li>
+      <li class="{% if page.tags contains '/thoughts/' %}current{% endif %}">
+        <a href="/thoughts">#thoughts</a>
       </li>
       <li class="{% if page.url contains '/guard/' %}current{% endif %}">
         <a href="/guard">#guard</a>
